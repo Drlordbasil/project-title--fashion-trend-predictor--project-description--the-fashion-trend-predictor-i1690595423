@@ -1,0 +1,6 @@
+The package requirements for this Python program are:
+- argparse
+- BeautifulSoup
+- Scrapy
+
+Please note that the package requirements are based on the imports used in the code.
