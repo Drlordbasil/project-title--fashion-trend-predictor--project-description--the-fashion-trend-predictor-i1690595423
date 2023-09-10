@@ -58,7 +58,8 @@ def fashion_trend_predictor():
     Execute the Fashion Trend Predictor program.
     """
     parser = argparse.ArgumentParser(description='Fashion Trend Predictor')
-    parser.add_argument('-preferences', type=str, help='User preferences for fashion recommendations')
+    parser.add_argument('-preferences', type=str,
+                        help='User preferences for fashion recommendations')
     args = parser.parse_args()
 
     preferences = args.preferences
